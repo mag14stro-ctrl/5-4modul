@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.qr-container {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  width: 420px;
+  color: #fff;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.qr-container h1 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.qr-container input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.opt label {
+  display: block;
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 5px;
+}
+
+.opt input,
+.opt select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* --- Кнопки --- */
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 200px;
+}
+
+button:hover {
+  background: #1e40af;
+  transform: scale(1.05);
+}
+
+.download {
+  background: #10b981;
+}
+
+.download:hover {
+  background: #059669;
+}
+
+.qr-code {
+  margin: 0 auto;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
